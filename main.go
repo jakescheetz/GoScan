@@ -17,6 +17,7 @@ import (
 func main() {
 	banners.PrintWelcomeBanner()
 	startTime := time.Now()
+	fmt.Println("Execution begining at: ", startTime.Format("2006-January-02 3:04 pm"))
 
 	//flag options
 	//ipPtr := flag.String("ip", "x.x.x.x", "[REQUIRED] target IP(s) to be scanned.")
